@@ -1,6 +1,7 @@
 package org.example.kafkademo;
 
 public class Order {
+	
 	private String orderId;
 	private String itemName;
 	private double price;
