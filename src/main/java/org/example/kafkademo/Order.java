@@ -8,7 +8,7 @@ public class Order {
 	// Default constructor needed for JSON Deserialization
 	public Order() {
 	}
-
+	
 	public Order(String orderId, String itemName, double price) {
 		this.orderId = orderId;
 		this.itemName = itemName;
